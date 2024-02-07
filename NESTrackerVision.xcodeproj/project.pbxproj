@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CE9536A2B6F86CA0001748E /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 1CE953692B6F86CA0001748E /* RealityKitContent */; };
+		1CE9536C2B6F86CA0001748E /* NESTrackerVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9536B2B6F86CA0001748E /* NESTrackerVisionApp.swift */; };
+		1CE9536E2B6F86CA0001748E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9536D2B6F86CA0001748E /* ContentView.swift */; };
+		1CE953702B6F86CB0001748E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE9536F2B6F86CB0001748E /* Assets.xcassets */; };
+		1CE953732B6F86CB0001748E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE953722B6F86CB0001748E /* Preview Assets.xcassets */; };
+		1CE9537E2B6F86CC0001748E /* NESTrackerVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9537D2B6F86CC0001748E /* NESTrackerVisionTests.swift */; };
+		1CE953882B6F88410001748E /* Consoles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE953872B6F88410001748E /* Consoles.swift */; };
+		1CE9538A2B6F89380001748E /* ConsoleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE953892B6F89380001748E /* ConsoleDetailView.swift */; };
+		1CE9538C2B6F89B70001748E /* CurrentConsoles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9538B2B6F89B70001748E /* CurrentConsoles.swift */; };
+		1CE9538E2B6F8A000001748E /* ConsoleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE9538D2B6F8A000001748E /* ConsoleMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CE9537A2B6F86CC0001748E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CE9535C2B6F86CA0001748E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CE953632B6F86CA0001748E;
+			remoteInfo = NESTrackerVision;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CE953642B6F86CA0001748E /* NESTrackerVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NESTrackerVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE953682B6F86CA0001748E /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		1CE9536B2B6F86CA0001748E /* NESTrackerVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESTrackerVisionApp.swift; sourceTree = "<group>"; };
+		1CE9536D2B6F86CA0001748E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CE9536F2B6F86CB0001748E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CE953722B6F86CB0001748E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CE953742B6F86CB0001748E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CE953792B6F86CC0001748E /* NESTrackerVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NESTrackerVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CE9537D2B6F86CC0001748E /* NESTrackerVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESTrackerVisionTests.swift; sourceTree = "<group>"; };
+		1CE953872B6F88410001748E /* Consoles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Consoles.swift; sourceTree = "<group>"; };
+		1CE953892B6F89380001748E /* ConsoleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleDetailView.swift; sourceTree = "<group>"; };
+		1CE9538B2B6F89B70001748E /* CurrentConsoles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConsoles.swift; sourceTree = "<group>"; };
+		1CE9538D2B6F8A000001748E /* ConsoleMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CE953612B6F86CA0001748E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE9536A2B6F86CA0001748E /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE953762B6F86CC0001748E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE9535B2B6F86CA0001748E = {
+			isa = PBXGroup;
+			children = (
+				1CE953662B6F86CA0001748E /* NESTrackerVision */,
+				1CE953672B6F86CA0001748E /* Packages */,
+				1CE9537C2B6F86CC0001748E /* NESTrackerVisionTests */,
+				1CE953652B6F86CA0001748E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CE953652B6F86CA0001748E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CE953642B6F86CA0001748E /* NESTrackerVision.app */,
+				1CE953792B6F86CC0001748E /* NESTrackerVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CE953662B6F86CA0001748E /* NESTrackerVision */ = {
+			isa = PBXGroup;
+			children = (
+				1CE9536B2B6F86CA0001748E /* NESTrackerVisionApp.swift */,
+				1CE9536D2B6F86CA0001748E /* ContentView.swift */,
+				1CE953872B6F88410001748E /* Consoles.swift */,
+				1CE953892B6F89380001748E /* ConsoleDetailView.swift */,
+				1CE9538D2B6F8A000001748E /* ConsoleMenu.swift */,
+				1CE9538B2B6F89B70001748E /* CurrentConsoles.swift */,
+				1CE9536F2B6F86CB0001748E /* Assets.xcassets */,
+				1CE953742B6F86CB0001748E /* Info.plist */,
+				1CE953712B6F86CB0001748E /* Preview Content */,
+			);
+			path = NESTrackerVision;
+			sourceTree = "<group>";
+		};
+		1CE953672B6F86CA0001748E /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				1CE953682B6F86CA0001748E /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		1CE953712B6F86CB0001748E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CE953722B6F86CB0001748E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CE9537C2B6F86CC0001748E /* NESTrackerVisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CE9537D2B6F86CC0001748E /* NESTrackerVisionTests.swift */,
+			);
+			path = NESTrackerVisionTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CE953632B6F86CA0001748E /* NESTrackerVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CE953812B6F86CC0001748E /* Build configuration list for PBXNativeTarget "NESTrackerVision" */;
+			buildPhases = (
+				1CE953602B6F86CA0001748E /* Sources */,
+				1CE953612B6F86CA0001748E /* Frameworks */,
+				1CE953622B6F86CA0001748E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NESTrackerVision;
+			packageProductDependencies = (
+				1CE953692B6F86CA0001748E /* RealityKitContent */,
+			);
+			productName = NESTrackerVision;
+			productReference = 1CE953642B6F86CA0001748E /* NESTrackerVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CE953782B6F86CC0001748E /* NESTrackerVisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CE953842B6F86CC0001748E /* Build configuration list for PBXNativeTarget "NESTrackerVisionTests" */;
+			buildPhases = (
+				1CE953752B6F86CC0001748E /* Sources */,
+				1CE953762B6F86CC0001748E /* Frameworks */,
+				1CE953772B6F86CC0001748E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CE9537B2B6F86CC0001748E /* PBXTargetDependency */,
+			);
+			name = NESTrackerVisionTests;
+			productName = NESTrackerVisionTests;
+			productReference = 1CE953792B6F86CC0001748E /* NESTrackerVisionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CE9535C2B6F86CA0001748E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1CE953632B6F86CA0001748E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1CE953782B6F86CC0001748E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1CE953632B6F86CA0001748E;
+					};
+				};
+			};
+			buildConfigurationList = 1CE9535F2B6F86CA0001748E /* Build configuration list for PBXProject "NESTrackerVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CE9535B2B6F86CA0001748E;
+			productRefGroup = 1CE953652B6F86CA0001748E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CE953632B6F86CA0001748E /* NESTrackerVision */,
+				1CE953782B6F86CC0001748E /* NESTrackerVisionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CE953622B6F86CA0001748E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE953732B6F86CB0001748E /* Preview Assets.xcassets in Resources */,
+				1CE953702B6F86CB0001748E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE953772B6F86CC0001748E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE953602B6F86CA0001748E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE9536E2B6F86CA0001748E /* ContentView.swift in Sources */,
+				1CE9536C2B6F86CA0001748E /* NESTrackerVisionApp.swift in Sources */,
+				1CE9538E2B6F8A000001748E /* ConsoleMenu.swift in Sources */,
+				1CE953882B6F88410001748E /* Consoles.swift in Sources */,
+				1CE9538C2B6F89B70001748E /* CurrentConsoles.swift in Sources */,
+				1CE9538A2B6F89380001748E /* ConsoleDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CE953752B6F86CC0001748E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE9537E2B6F86CC0001748E /* NESTrackerVisionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CE9537B2B6F86CC0001748E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CE953632B6F86CA0001748E /* NESTrackerVision */;
+			targetProxy = 1CE9537A2B6F86CC0001748E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CE9537F2B6F86CC0001748E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		1CE953802B6F86CC0001748E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		1CE953822B6F86CC0001748E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NESTrackerVision/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		1CE953832B6F86CC0001748E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NESTrackerVision/Preview Content\"";
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		1CE953852B6F86CC0001748E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NESTrackerVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NESTrackerVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		1CE953862B6F86CC0001748E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8SRDS3PR6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexjo.NESTrackerVisionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NESTrackerVision.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NESTrackerVision";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CE9535F2B6F86CA0001748E /* Build configuration list for PBXProject "NESTrackerVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE9537F2B6F86CC0001748E /* Debug */,
+				1CE953802B6F86CC0001748E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CE953812B6F86CC0001748E /* Build configuration list for PBXNativeTarget "NESTrackerVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE953822B6F86CC0001748E /* Debug */,
+				1CE953832B6F86CC0001748E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CE953842B6F86CC0001748E /* Build configuration list for PBXNativeTarget "NESTrackerVisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CE953852B6F86CC0001748E /* Debug */,
+				1CE953862B6F86CC0001748E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1CE953692B6F86CA0001748E /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1CE9535C2B6F86CA0001748E /* Project object */;
+}
