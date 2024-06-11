@@ -60,7 +60,7 @@ struct ContentView: View {
                             }
                         })
                         ForEach(categories, id:\.key) { category in
-                            if (category.key == "Other" || category.key == "Current Consoles"){
+                            if (category.key == "Other" || category.key == "Current Consoles" || category.key == "Remakes"){
                                 NavigationLink(destination: ConsoleMenu(cons: category.value), label: {
                                     Section{
                                         HStack{

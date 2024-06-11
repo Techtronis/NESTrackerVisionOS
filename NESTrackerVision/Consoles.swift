@@ -124,6 +124,98 @@ struct ConsoleList {
                        discontinued: false,
                        isHandheld: true,
                        isRegionLocked: false),
+        //Remakes
+        ConsoleDetails(imgName: "NESCLASSIC",
+                       jpnName: "ニンテンドークラシックミニ ファミリーコンピュータ",
+                       consoleName: "NES Classic Edition",
+                       mostSoldGame: "Super Mario Bros.",
+                       initialPrice: "$59.99",
+                       ReleaseDate: """
+                       US: November 11th, 2016
+                        JPN: November 10th, 2016
+                        PAL: November 11th, 2016
+                       """,
+                       Discontinuation: "2017",
+                       category: "Remakes",
+                       estimatedPricedToday: "$100-200 used depending on condition",
+                       cables: "HDMI, Micro USB",
+                       processor: "Quad-Core ARM Cortex-A7",
+                       modelNumber: "CLV-101",
+                       dims: """
+                       W: 5\"
+                        H: 4\"
+                        D: 1\"
+                       """,
+                       favorites: false,
+                       discontinued: true,
+                       isHandheld: false,
+                       isRegionLocked: true),
+        ConsoleDetails(imgName: "SNESCLASSIC",
+                       jpnName: "ニンテンドークラシックミニ スーパーファミコン",
+                       consoleName: "SNES Classic Edition",
+                       mostSoldGame: "Super Mario World",
+                       initialPrice: "$75.59",
+                       ReleaseDate: """
+                       US: September 29th, 2017
+                        JPN: October 5th, 2017
+                        PAL: September 29th, 2017
+                       """,
+                       Discontinuation: "2018",
+                       category: "Remakes",
+                       estimatedPricedToday: "$100-200 used depending on condition",
+                       cables: "HDMI, Micro USB",
+                       processor: "Allwinner R16",
+                       modelNumber: "CLV-301",
+                       dims: """
+                       W: 4.33\"
+                        H: 1.59\"
+                        D: 5.23\"
+                       """,
+                       favorites: false,
+                       discontinued: true,
+                       isHandheld: false,
+                       isRegionLocked: true),
+        ConsoleDetails(imgName: "GW59",
+                       consoleName: "Super Mario Bros.",
+                       mostSoldGame: "Special Anniversary",
+                       initialPrice: "49.99",
+                       ReleaseDate: "Nov 13, 2020",
+                       Discontinuation: "2021",
+                       category: "Game & Watch",
+                       estimatedPricedToday: "$50-80 used depending on condition",
+                       cables: "USB Type-C",
+                       processor: "STM32H7B0VBT6",
+                       screenSize: "2.36 inch LCD",
+                       modelNumber: "CLV-003",
+                       dims: """
+                       W: 2.6\"
+                        H: 4.9\"
+                        D: 0.2\"
+                       """,
+                       favorites: false,
+                       discontinued: true,
+                       isHandheld: true),
+        ConsoleDetails(imgName: "GW60",
+                       consoleName: "The legend of Zelda",
+                       mostSoldGame: "Special Anniversary",
+                       initialPrice: "49.99",
+                       ReleaseDate: "Nov 13, 2021",
+                       Discontinuation: "2022",
+                       category: "Game & Watch",
+                       estimatedPricedToday: "50-80 used depending on condition",
+                       cables: "USB Type-C",
+                       processor: "STM32H7B0VBT6",
+                       screenSize: "2.36 inch LCD",
+                       modelNumber: "HXB-001",
+                       dims: """
+                       W: 2.6\"
+                        H: 4.9\"
+                        D: 0.2\"
+                       """,
+                       favorites: false,
+                       discontinued: true,
+                       isHandheld: true),
+        
         //Color TV Game
         ConsoleDetails(imgName: "CTG6",
                        jpnName: "カラーテレビゲーム6",
@@ -2401,46 +2493,6 @@ struct ConsoleList {
                        W: 9.40\"
                         H: 4.01\"
                         D: 0.55\"
-                       """,
-                       favorites: false,
-                       discontinued: true,
-                       isHandheld: true),
-        ConsoleDetails(imgName: "GW59",
-                       consoleName: "Super Mario Bros.",
-                       mostSoldGame: "Special Anniversary",
-                       initialPrice: "49.99",
-                       ReleaseDate: "Nov 13, 2020",
-                       Discontinuation: "2021",
-                       category: "Game & Watch",
-                       estimatedPricedToday: "$50-80 used depending on condition",
-                       cables: "USB Type-C",
-                       processor: "STM32H7B0VBT6",
-                       screenSize: "2.36 inch LCD",
-                       modelNumber: "CLV-003",
-                       dims: """
-                       W: 2.6\"
-                        H: 4.9\"
-                        D: 0.2\"
-                       """,
-                       favorites: false,
-                       discontinued: true,
-                       isHandheld: true),
-        ConsoleDetails(imgName: "GW60",
-                       consoleName: "The legend of Zelda",
-                       mostSoldGame: "Special Anniversary",
-                       initialPrice: "49.99",
-                       ReleaseDate: "Nov 13, 2021",
-                       Discontinuation: "2022",
-                       category: "Game & Watch",
-                       estimatedPricedToday: "50-80 used depending on condition",
-                       cables: "USB Type-C",
-                       processor: "STM32H7B0VBT6",
-                       screenSize: "2.36 inch LCD",
-                       modelNumber: "HXB-001",
-                       dims: """
-                       W: 2.6\"
-                        H: 4.9\"
-                        D: 0.2\"
                        """,
                        favorites: false,
                        discontinued: true,
